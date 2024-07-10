@@ -15,7 +15,7 @@
 
                         <div class="min_height round_border p-4 relative">
                             <div>
-                                <h3 class="mt-0 p-4 text-2xl font-medium leading-tight text-primary">Пункт выдачи Шымкент</h3>
+                                <h3 class="mt-0 p-4 text-2xl font-medium leading-tight text-primary">Пункт выдачи</h3>
                             </div>
                             <form method="POST" action="{{ route('getinfo-product') }}" id="getInfoForm">
                                 <div class="w-full">
@@ -46,9 +46,9 @@
                                     <h4 class="mt-4">Получено на складе Киргизии
                                     </h4>
                                     <p><small id="to_china"></small></p>
-                                    <h4>Отправлено в Казахстан -Шымкент</h4>
+                                    <h4>Отправлено в Казахстан</h4>
                                     <p><small id="to_shimkent"></small></p>
-                                    <h4>Получено на складе Шымкент</h4>
+                                    <h4>Получено на складе</h4>
                                     <p><small id="to_almaty"></small></p>
                                     <h4>Дата получения клиентом</h4>
                                     <p><small id="to_client"></small></p>
