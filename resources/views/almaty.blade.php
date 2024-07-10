@@ -1,3 +1,4 @@
+@if(isset($config->title_text)) @section( 'title_text', $config->title_text ) @endif
 <x-app-layout>
         <div class="py-6">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
